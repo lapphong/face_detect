@@ -12,6 +12,17 @@
 - Device Orientation: Portrail (primary)
 - Standard design: `Samsung Galaxy S22 (360x765 @3x)`
 
+## 📸  Screenshots
+<table>
+  <tr>
+    <th align="center">Demo</th>
+    <th align="center">Front / Back</th>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/lapphong/face_detect/main/screenshots/video.gif" alt="Dash light" width="300"/></td>
+    <td><img src="https://raw.githubusercontent.com/lapphong/face_detect/main/screenshots/demo.png" alt="Dash dark" width="300"/></td>
+  </tr>
+</table>
 
 ## **Technology stack details**
 
