@@ -26,13 +26,13 @@ class _FaceDetectionScreenState extends State<FaceDetectionScreen> with FaceDete
       hideLoading();
       Future.delayed(const Duration(seconds: 2), () => isComparing = false);
       if (state is FaceDetectionSuccess) {
-        final String message = '${state.user.name}. Xin cám ơn !';
+        final String message = '${state.user.name}. Thank you!';
         _flutterTts.speak(message);
         context.showToastMessage(message);
       } else if (state is FaceDetectionError) {
         context.showToastMessage(state.errMsg, ToastMessageType.error);
       } else {
-        context.showToastMessage('Hệ thống đã ghi nhận khuôn mặt', ToastMessageType.warning);
+        context.showToastMessage('The system has detected the face', ToastMessageType.warning);
       }
     }
   }

@@ -53,7 +53,7 @@ class FaceDetectionBloc extends Bloc<FaceDetectionEvent, FaceDetectionState> {
       if (user.isMatch) {
         emit(FaceDetectionSuccess(user));
       } else {
-        emit(FaceDetectionError('Khuôn mặt không khớp lắm !'));
+        emit(FaceDetectionError('Face does not match.'));
       }
     } on DioException catch (e) {
       if (e.error is SocketException) {

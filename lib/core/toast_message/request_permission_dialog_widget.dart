@@ -30,8 +30,8 @@ class RequestPermissionDialogWidget extends StatelessWidget {
   }
 
   List<Widget> _buildActions(BuildContext context) => [
-    _buildAction(context, 'Lúc khác'),
-    _buildAction(context, 'Mở cài đặt', value: true),
+    _buildAction(context, 'Later'),
+    _buildAction(context, 'Open settings', value: true),
   ];
 
   Widget _buildTitle(BuildContext context) {
