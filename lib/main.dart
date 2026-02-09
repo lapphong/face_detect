@@ -34,9 +34,8 @@ class Application extends StatelessWidget {
           error: const Color(0xffD90000),
         ),
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.white,
-          elevation: 0,
-          shape: Border(bottom: BorderSide(color: Color(0xFFF0F2F4))),
+          backgroundColor: Colors.blue,
+          titleTextStyle: TextStyle(color: Colors.white, fontSize: 20),
         ),
       ),
       builder: _materialBuilder,
